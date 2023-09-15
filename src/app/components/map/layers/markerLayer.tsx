@@ -1,7 +1,7 @@
 import { LatLngTuple } from "leaflet";
 import React from "react";
 import { LayersControl, LayerGroup } from "react-leaflet";
-import AppMarker from "../components/map/marker";
+import AppMarker from "../marker";
 
 type Location = {
   position: LatLngTuple;

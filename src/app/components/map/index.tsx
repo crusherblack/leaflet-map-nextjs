@@ -1,7 +1,7 @@
 "use client";
 
-import GeoJsonlayer from "@/app/layers/geoJsonlayer";
-import MarkerLayer from "@/app/layers/markerLayer";
+import GeoJsonlayer from "@/app/components/map/layers/geoJsonlayer";
+import MarkerLayer from "@/app/components/map/layers/markerLayer";
 import { MapContainer, TileLayer, LayersControl } from "react-leaflet";
 
 const MAP_ZOOM = 5;
